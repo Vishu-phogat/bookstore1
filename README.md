@@ -2,20 +2,25 @@
 
 Install project with npm
 
+1. Clone the repository:
 ```bash
-
-1. git clone <repository-url>
+ git clone <repository-url>
    cd <repository-folder>
-
-2. npm install
 ```
-Create a .env file in the root directory and add your MongoDB connection string by the variable name MONGO_URI
+2. Install dependencies
+```bash
+npm install
+```
 
-Start the MongoDB server by
+3. Create a .env file in the root directory and add your MongoDB connection string by the variable name
+   MONGO_URI
+
+4. Start the MongoDB server by
 ```bash
 mongod
 ```
-Run the application:
+5. Run the application:
+   
 ```bash
 npm start
 ```
