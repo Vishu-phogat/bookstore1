@@ -13,7 +13,10 @@ npm install
 ```
 
 3. Create a .env file in the root directory and add your MongoDB connection string by the variable name
+   
+```bash
    MONGO_URI
+```
 
 4. Start the MongoDB server by
 ```bash
